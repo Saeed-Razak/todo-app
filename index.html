@@ -1,29 +1,30 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ToDo</title>
     <link rel="stylesheet" href="style.css" />
+    <title>Todo App</title>
   </head>
   <body>
     <div id="modal">
       <div class="modal-box">
         <span>&times;</span>
-        <div class="sign in">
-          <input type="type" placeholder="enter a name" />
-          <button>Singn in</button>
+        <div class="sign-in">
+          <input type="text" placeholder="enter a name" />
+          <button>Sign in</button>
         </div>
       </div>
     </div>
+
     <header>
-      <div class="logo-wrapt">
-        <h1>Todo List App</h1>
-        <p>sign in</p>
+      <div class="logo-wrap">
+        <h1>TodoList App</h1>
+        <p>Sign in</p>
       </div>
+
       <div class="todo-add">
-        <button id="add btn">add Todo</button>
+        <button id="add-btn">Add Todo</button>
         <input id="todo-input" type="text" />
       </div>
     </header>
@@ -32,5 +33,8 @@
       <h2 id="info-msg">Nothing to do</h2>
       <ul></ul>
     </main>
+
+    <!-- javascript -->
+    <script src="main.js"></script>
   </body>
 </html>
